@@ -205,6 +205,94 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+main{
+  width: 60%;
+  margin: 0 15% 0 15%;
+  background-color: #484848;
+  padding: 5%;
+  border-radius: 1.3em;
+}
+form{
+  display: block;
+  margin: auto;
+  width: auto;
+}
 
+h1{
+  margin: 0em 0 2em 0;
+  padding: 1.3em;
+  border-radius: 1em;
+  background-color: #B8B8B8;
+  text-align: center;
+  font-size: 1.3em;
+}
+p{
+  margin: 1.3em 0.3em 1.3em 0.3em ;
+  text-align: center;
+  padding: 15px;
+  background-color: #808080;
+}
+ol{
+  width: 80% ;
+  margin: 0 5% 0 5%;
+  padding: 5%;
+  background-color: #989898;
+}
 
+input{
+  background-color: #F5F5F5;
+  border-width: 0;
+  border-radius:0.1em;
+  width: 100%;
+  padding: 0.2em 0 0.2em 0;
+}
+#input-email{
+  margin: 0.1em 0 1em 0;
+  padding: 1em;
+  background-color: #D0D0D0;
+  border-radius: 0.3em;
+}
+#input-age-verification{
+  padding: 1em;
+  margin: 1em;
+  background-color: #D3D3D3;
+  border-radius: 0.3em;
+  
+}
+#age-verification{
+  width: 20%;
+  float: left;
+}
+#submit{
+  padding: 0.3em;
+  width: 100%;
+}
+#input-submit{
+  padding: 0.5em;
+}
 /* ===== STATE STYLES ======= */
+@media only screen and (min-width:  480px){
+  main{
+    width: 90%;
+    margin: 0 5% 0 5%;
+    padding: 1% 0 1% 0;
+  }
+  form{
+    width: 18em;
+  }
+  input{
+    width: 80%;
+  }
+  #input-age-verification{
+    margin: 0.5em 0 0.5em 0;
+    padding: 1em;
+    width: auto;
+    background-color: #D3D3D3;
+    border-radius: 0.3em;
+    
+  }
+  #age-verification{
+    float: left;
+  }
+  
+}
