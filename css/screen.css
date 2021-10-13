@@ -197,6 +197,7 @@ html {
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
   font-family: Merriweather, Impact, Serif;
+  background-color: #606060;
 }
 
 label {
